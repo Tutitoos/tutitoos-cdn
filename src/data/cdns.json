@@ -1,0 +1,17 @@
+[
+  {
+    "name": "probot",
+    "url": "https://probot.io/static/flags",
+    "formats": ["png"]
+  },
+  {
+    "name": "flagpedia",
+    "url": "https://flagpedia.net/data/flags/h120",
+    "formats": ["webp", "png", "jpeg", "jpg"]
+  },
+  {
+    "name": "flagcdn",
+    "url": "https://flagcdn.com",
+    "formats": ["svg"]
+  }
+]

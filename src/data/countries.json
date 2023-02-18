@@ -1,0 +1,611 @@
+[
+  { "origin": "Andorra", "codes": ["ad"] },
+  { "origin": "United Arab Emirates", "codes": ["ae"] },
+  { "origin": "Afghanistan", "codes": ["af"] },
+  { "origin": "Antigua and Barbuda", "codes": ["ag"] },
+  { "origin": "Anguilla", "codes": ["ai"] },
+  { "origin": "Albania", "codes": ["al"] },
+  { "origin": "Armenia", "codes": ["am"] },
+  { "origin": "Angola", "codes": ["ao"] },
+  { "origin": "Antarctica", "codes": ["aq"] },
+  { "origin": "Argentina", "codes": ["ar"] },
+  { "origin": "American Samoa", "codes": ["as"] },
+  { "origin": "Austria", "codes": ["at"] },
+  { "origin": "Australia", "codes": ["au"] },
+  { "origin": "Aruba", "codes": ["aw"] },
+  { "origin": "Åland Islands", "codes": ["ax"] },
+  { "origin": "Azerbaijan", "codes": ["az"] },
+  { "origin": "Bosnia and Herzegovina", "codes": ["ba"] },
+  { "origin": "Barbados", "codes": ["bb"] },
+  { "origin": "Bangladesh", "codes": ["bd"] },
+  { "origin": "Belgium", "codes": ["be"] },
+  { "origin": "Burkina Faso", "codes": ["bf"] },
+  { "origin": "Bulgaria", "codes": ["bg"] },
+  { "origin": "Bahrain", "codes": ["bh"] },
+  { "origin": "Burundi", "codes": ["bi"] },
+  { "origin": "Benin", "codes": ["bj"] },
+  { "origin": "Saint Barthélemy", "codes": ["bl"] },
+  { "origin": "Bermuda", "codes": ["bm"] },
+  { "origin": "Brunei", "codes": ["bn"] },
+  { "origin": "Bolivia", "codes": ["bo"] },
+  { "origin": "Caribbean Netherlands", "codes": ["bq"] },
+  { "origin": "Brazil", "codes": ["br"] },
+  { "origin": "Bahamas", "codes": ["bs"] },
+  { "origin": "Bhutan", "codes": ["bt"] },
+  { "origin": "Bouvet Island", "codes": ["bv"] },
+  { "origin": "Botswana", "codes": ["bw"] },
+  { "origin": "Belarus", "codes": ["by"] },
+  { "origin": "Belize", "codes": ["bz"] },
+  { "origin": "Canada", "codes": ["ca"] },
+  { "origin": "Cocos (Keeling) Islands", "codes": ["cc"] },
+  { "origin": "DR Congo", "codes": ["cd"] },
+  { "origin": "Central African Republic", "codes": ["cf"] },
+  { "origin": "Republic of the Congo", "codes": ["cg"] },
+  { "origin": "Switzerland", "codes": ["ch"] },
+  { "origin": "Côte d'Ivoire (Ivory Coast)", "codes": ["ci"] },
+  { "origin": "Cook Islands", "codes": ["ck"] },
+  { "origin": "Chile", "codes": ["cl"] },
+  { "origin": "Cameroon", "codes": ["cm"] },
+  { "origin": "China", "codes": ["cn"] },
+  {
+    "origin": "China",
+    "codes": ["cn"]
+  },
+  {
+    "origin": "Colombia",
+    "codes": ["co"]
+  },
+  {
+    "origin": "Costa Rica",
+    "codes": ["cr"]
+  },
+  {
+    "origin": "Cuba",
+    "codes": ["cu"]
+  },
+  {
+    "origin": "Cape Verde",
+    "codes": ["cv"]
+  },
+  {
+    "origin": "Curaçao",
+    "codes": ["cw"]
+  },
+  {
+    "origin": "Christmas Island",
+    "codes": ["cx"]
+  },
+  {
+    "origin": "Cyprus",
+    "codes": ["cy"]
+  },
+  {
+    "origin": "Czechia",
+    "codes": ["cz"]
+  },
+  {
+    "origin": "Germany",
+    "codes": ["de"]
+  },
+  {
+    "origin": "Djibouti",
+    "codes": ["dj"]
+  },
+  {
+    "origin": "Denmark",
+    "codes": ["dk"]
+  },
+  {
+    "origin": "Dominica",
+    "codes": ["dm"]
+  },
+  {
+    "origin": "Dominican Republic",
+    "codes": ["do"]
+  },
+  {
+    "origin": "Algeria",
+    "codes": ["dz"]
+  },
+  {
+    "origin": "Ecuador",
+    "codes": ["ec"]
+  },
+  {
+    "origin": "Estonia",
+    "codes": ["ee"]
+  },
+  {
+    "origin": "Egypt",
+    "codes": ["eg"]
+  },
+  {
+    "origin": "Western Sahara",
+    "codes": ["eh"]
+  },
+  {
+    "origin": "Eritrea",
+    "codes": ["er"]
+  },
+  {
+    "origin": "Spain",
+    "codes": ["es"]
+  },
+  {
+    "origin": "Ethiopia",
+    "codes": ["et"]
+  },
+  {
+    "origin": "European Union",
+    "codes": ["eu"]
+  },
+  {
+    "origin": "Finland",
+    "codes": ["fi"]
+  },
+  {
+    "origin": "Fiji",
+    "codes": ["fj"]
+  },
+  {
+    "origin": "Falkland Islands",
+    "codes": ["fk"]
+  },
+  {
+    "origin": "Micronesia",
+    "codes": ["fm"]
+  },
+  {
+    "origin": "Faroe Islands",
+    "codes": ["fo"]
+  },
+  {
+    "origin": "France",
+    "codes": ["fr"]
+  },
+  {
+    "origin": "Gabon",
+    "codes": ["ga"]
+  },
+  {
+    "origin": "United Kingdom",
+    "codes": ["gb"]
+  },
+  {
+    "origin": "England",
+    "codes": ["gb-eng"]
+  },
+  {
+    "origin": "Northern Ireland",
+    "codes": ["gb-nir"]
+  },
+  {
+    "origin": "Scotland",
+    "codes": ["gb-sct"]
+  },
+  {
+    "origin": "Wales",
+    "codes": ["gb-wls"]
+  },
+  {
+    "origin": "Grenada",
+    "codes": ["gd"]
+  },
+  {
+    "origin": "Georgia",
+    "codes": ["ge"]
+  },
+  {
+    "origin": "French Guiana",
+    "codes": ["gf"]
+  },
+  {
+    "origin": "Guernsey",
+    "codes": ["gg"]
+  },
+  {
+    "origin": "Ghana",
+    "codes": ["gh"]
+  },
+  {
+    "origin": "Gibraltar",
+    "codes": ["gi"]
+  },
+  { "origin": "Greenland", "codes": ["gl"] },
+  { "origin": "Gambia", "codes": ["gm"] },
+  { "origin": "Guinea", "codes": ["gn"] },
+  { "origin": "Guadeloupe", "codes": ["gp"] },
+  { "origin": "Equatorial Guinea", "codes": ["gq"] },
+  { "origin": "Greece", "codes": ["gr"] },
+  { "origin": "South Georgia", "codes": ["gs"] },
+  { "origin": "Guatemala", "codes": ["gt"] },
+  { "origin": "Guam", "codes": ["gu"] },
+  { "origin": "Guinea-Bissau", "codes": ["gw"] },
+  { "origin": "Guyana", "codes": ["gy"] },
+  { "origin": "Hong Kong", "codes": ["hk"] },
+  { "origin": "Heard Island and McDonald Islands", "codes": ["hm"] },
+  { "origin": "Honduras", "codes": ["hn"] },
+  { "origin": "Croatia", "codes": ["hr"] },
+  { "origin": "Haiti", "codes": ["ht"] },
+  { "origin": "Hungary", "codes": ["hu"] },
+  { "origin": "Indonesia", "codes": ["id"] },
+  { "origin": "Ireland", "codes": ["ie"] },
+  { "origin": "Israel", "codes": ["il"] },
+  { "origin": "Isle of Man", "codes": ["im"] },
+  { "origin": "India", "codes": ["in"] },
+  { "origin": "British Indian Ocean Territory", "codes": ["io"] },
+  { "origin": "Iraq", "codes": ["iq"] },
+  { "origin": "Iran", "codes": ["ir"] },
+  { "origin": "Iceland", "codes": ["is"] },
+  { "origin": "Italy", "codes": ["it"] },
+  { "origin": "Jersey", "codes": ["je"] },
+  { "origin": "Jamaica", "codes": ["jm"] },
+  { "origin": "Jordan", "codes": ["jo"] },
+  { "origin": "Japan", "codes": ["jp"] },
+  { "origin": "Kenya", "codes": ["ke"] },
+  { "origin": "Kyrgyzstan", "codes": ["kg"] },
+  { "origin": "Cambodia", "codes": ["kh"] },
+  { "origin": "Kiribati", "codes": ["ki"] },
+  { "origin": "Comoros", "codes": ["km"] },
+  { "origin": "Saint Kitts and Nevis", "codes": ["kn"] },
+  { "origin": "North Korea", "codes": ["kp"] },
+  { "origin": "South Korea", "codes": ["kr"] },
+  { "origin": "Kuwait", "codes": ["kw"] },
+  { "origin": "Cayman Islands", "codes": ["ky"] },
+  { "origin": "Kazakhstan", "codes": ["kz"] },
+  { "origin": "Laos", "codes": ["la"] },
+  { "origin": "Lebanon", "codes": ["lb"] },
+  { "origin": "Saint Lucia", "codes": ["lc"] },
+  { "origin": "Liechtenstein", "codes": ["li"] },
+  { "origin": "Sri Lanka", "codes": ["lk"] },
+  {
+    "origin": "Liberia",
+    "codes": ["lr"]
+  },
+  {
+    "origin": "Lesotho",
+    "codes": ["ls"]
+  },
+  {
+    "origin": "Lithuania",
+    "codes": ["lt"]
+  },
+  {
+    "origin": "Luxembourg",
+    "codes": ["lu"]
+  },
+  {
+    "origin": "Latvia",
+    "codes": ["lv"]
+  },
+  {
+    "origin": "Libya",
+    "codes": ["ly"]
+  },
+  {
+    "origin": "Morocco",
+    "codes": ["ma"]
+  },
+  {
+    "origin": "Monaco",
+    "codes": ["mc"]
+  },
+  {
+    "origin": "Moldova",
+    "codes": ["md"]
+  },
+  {
+    "origin": "Montenegro",
+    "codes": ["me"]
+  },
+  {
+    "origin": "Saint Martin",
+    "codes": ["mf"]
+  },
+  {
+    "origin": "Madagascar",
+    "codes": ["mg"]
+  },
+  {
+    "origin": "Marshall Islands",
+    "codes": ["mh"]
+  },
+  {
+    "origin": "North Macedonia",
+    "codes": ["mk"]
+  },
+  {
+    "origin": "Mali",
+    "codes": ["ml"]
+  },
+  {
+    "origin": "Myanmar",
+    "codes": ["mm"]
+  },
+  {
+    "origin": "Mongolia",
+    "codes": ["mn"]
+  },
+  {
+    "origin": "Macau",
+    "codes": ["mo"]
+  },
+  {
+    "origin": "Northern Mariana Islands",
+    "codes": ["mp"]
+  },
+  {
+    "origin": "Martinique",
+    "codes": ["mq"]
+  },
+  {
+    "origin": "Mauritania",
+    "codes": ["mr"]
+  },
+  {
+    "origin": "Montserrat",
+    "codes": ["ms"]
+  },
+  {
+    "origin": "Malta",
+    "codes": ["mt"]
+  },
+  {
+    "origin": "Mauritius",
+    "codes": ["mu"]
+  },
+  {
+    "origin": "Maldives",
+    "codes": ["mv"]
+  },
+  {
+    "origin": "Malawi",
+    "codes": ["mw"]
+  },
+  {
+    "origin": "Mexico",
+    "codes": ["mx"]
+  },
+  {
+    "origin": "Malaysia",
+    "codes": ["my"]
+  },
+  {
+    "origin": "Mozambique",
+    "codes": ["mz"]
+  },
+  {
+    "origin": "Namibia",
+    "codes": ["na"]
+  },
+  {
+    "origin": "New Caledonia",
+    "codes": ["nc"]
+  },
+  {
+    "origin": "Niger",
+    "codes": ["ne"]
+  },
+  {
+    "origin": "Norfolk Island",
+    "codes": ["nf"]
+  },
+  {
+    "origin": "Nigeria",
+    "codes": ["ng"]
+  },
+  {
+    "origin": "Nicaragua",
+    "codes": ["ni"]
+  },
+  {
+    "origin": "Netherlands",
+    "codes": ["nl"]
+  },
+  {
+    "origin": "Norway",
+    "codes": ["no"]
+  },
+  {
+    "origin": "Nepal",
+    "codes": ["np"]
+  },
+  {
+    "origin": "Nauru",
+    "codes": ["nr"]
+  },
+  {
+    "origin": "Niue",
+    "codes": ["nu"]
+  },
+  {
+    "origin": "New Zealand",
+    "codes": ["nz"]
+  },
+  { "origin": "Oman", "codes": ["om"] },
+  { "origin": "Panama", "codes": ["pa"] },
+  { "origin": "Peru", "codes": ["pe"] },
+  { "origin": "French Polynesia", "codes": ["pf"] },
+  { "origin": "Papua New Guinea", "codes": ["pg"] },
+  { "origin": "Philippines", "codes": ["ph"] },
+  { "origin": "Pakistan", "codes": ["pk"] },
+  { "origin": "Poland", "codes": ["pl"] },
+  { "origin": "Saint Pierre and Miquelon", "codes": ["pm"] },
+  { "origin": "Pitcairn Islands", "codes": ["pn"] },
+  { "origin": "Puerto Rico", "codes": ["pr"] },
+  { "origin": "Palestine", "codes": ["ps"] },
+  { "origin": "Portugal", "codes": ["pt"] },
+  { "origin": "Palau", "codes": ["pw"] },
+  { "origin": "Paraguay", "codes": ["py"] },
+  { "origin": "Qatar", "codes": ["qa"] },
+  { "origin": "Réunion", "codes": ["re"] },
+  { "origin": "Romania", "codes": ["ro"] },
+  { "origin": "Serbia", "codes": ["rs"] },
+  { "origin": "Russia", "codes": ["ru"] },
+  { "origin": "Rwanda", "codes": ["rw"] },
+  { "origin": "Saudi Arabia", "codes": ["sa"] },
+  { "origin": "Solomon Islands", "codes": ["sb"] },
+  { "origin": "Seychelles", "codes": ["sc"] },
+  { "origin": "Sudan", "codes": ["sd"] },
+  { "origin": "Sweden", "codes": ["se"] },
+  { "origin": "Singapore", "codes": ["sg"] },
+  { "origin": "Saint Helena, Ascension and Tristan da Cunha", "codes": ["sh"] },
+  { "origin": "Slovenia", "codes": ["si"] },
+  { "origin": "Svalbard and Jan Mayen", "codes": ["sj"] },
+  { "origin": "Slovakia", "codes": ["sk"] },
+  { "origin": "Sierra Leone", "codes": ["sl"] },
+  { "origin": "San Marino", "codes": ["sm"] },
+  { "origin": "Senegal", "codes": ["sn"] },
+  { "origin": "Somalia", "codes": ["so"] },
+  { "origin": "Suriname", "codes": ["sr"] },
+  { "origin": "South Sudan", "codes": ["ss"] },
+  { "origin": "São Tomé and Príncipe", "codes": ["st"] },
+  { "origin": "El Salvador", "codes": ["sv"] },
+  { "origin": "Sint Maarten", "codes": ["sx"] },
+  { "origin": "Syria", "codes": ["sy"] },
+  { "origin": "Eswatini (Swaziland)", "codes": ["sz"] },
+  { "origin": "Turks and Caicos Islands", "codes": ["tc"] },
+  { "origin": "Chad", "codes": ["td"] },
+  { "origin": "French Southern and Antarctic Lands", "codes": ["tf"] },
+  { "origin": "Togo", "codes": ["tg"] },
+  { "origin": "Thailand", "codes": ["th"] },
+  { "origin": "Tajikistan", "codes": ["tj"] },
+  { "origin": "Tokelau", "codes": ["tk"] },
+  { "origin": "Timor-Leste", "codes": ["tl"] },
+  { "origin": "Turkmenistan", "codes": ["tm"] },
+  { "origin": "Tunisia", "codes": ["tn"] },
+  { "origin": "Tonga", "codes": ["to"] },
+  { "origin": "Turkey", "codes": ["tr"] },
+  { "origin": "Trinidad and Tobago", "codes": ["tt"] },
+  { "origin": "Tuvalu", "codes": ["tv"] },
+  { "origin": "Taiwan", "codes": ["tw"] },
+  { "origin": "Tanzania", "codes": ["tz"] },
+  { "origin": "Ukraine", "codes": ["ua"] },
+  { "origin": "Uganda", "codes": ["ug"] },
+  { "origin": "United States Minor Outlying Islands", "codes": ["um"] },
+  { "origin": "United Nations", "codes": ["un"] },
+  { "origin": "United States", "codes": ["us"] },
+  { "origin": "Alaska", "codes": ["us-ak"] },
+  { "origin": "Alabama", "codes": ["us-al"] },
+  { "origin": "Arkansas", "codes": ["us-ar"] },
+  { "origin": "Arizona", "codes": ["us-az"] },
+  { "origin": "California", "codes": ["us-ca"] },
+  { "origin": "Colorado", "codes": ["us-co"] },
+  { "origin": "Connecticut", "codes": ["us-ct"] },
+  { "origin": "Delaware", "codes": ["us-de"] },
+  { "origin": "Florida", "codes": ["us-fl"] },
+  { "origin": "Georgia", "codes": ["us-ga"] },
+  { "origin": "Hawaii", "codes": ["us-hi"] },
+  { "origin": "Iowa", "codes": ["us-ia"] },
+  { "origin": "Idaho", "codes": ["us-id"] },
+  { "origin": "Illinois", "codes": ["us-il"] },
+  { "origin": "Indiana", "codes": ["us-in"] },
+  { "origin": "Kansas", "codes": ["us-ks"] },
+  { "origin": "Kentucky", "codes": ["us-ky"] },
+  { "origin": "Louisiana", "codes": ["us-la"] },
+  { "origin": "Massachusetts", "codes": ["us-ma"] },
+  { "origin": "Maryland", "codes": ["us-md"] },
+  { "origin": "Maine", "codes": ["us-me"] },
+  { "origin": "Michigan", "codes": ["us-mi"] },
+  { "origin": "Minnesota", "codes": ["us-mn"] },
+  { "origin": "Missouri", "codes": ["us-mo"] },
+  { "origin": "Mississippi", "codes": ["us-ms"] },
+  { "origin": "Montana", "codes": ["us-mt"] },
+  { "origin": "North Carolina", "codes": ["us-nc"] },
+  { "origin": "North Dakota", "codes": ["us-nd"] },
+  { "origin": "Nebraska", "codes": ["us-ne"] },
+  { "origin": "New Hampshire", "codes": ["us-nh"] },
+  { "origin": "New Jersey", "codes": ["us-nj"] },
+  { "origin": "New Mexico", "codes": ["us-nm"] },
+  {
+    "origin": "United States",
+    "codes": [
+      "us-nv",
+      "us-ny",
+      "us-oh",
+      "us-ok",
+      "us-or",
+      "us-pa",
+      "us-ri",
+      "us-sc",
+      "us-sd",
+      "us-tn",
+      "us-tx",
+      "us-ut",
+      "us-va",
+      "us-vt",
+      "us-wa",
+      "us-wi",
+      "us-wv",
+      "us-wy"
+    ]
+  },
+  {
+    "origin": "Uruguay",
+    "codes": ["uy"]
+  },
+  {
+    "origin": "Uzbekistan",
+    "codes": ["uz"]
+  },
+  {
+    "origin": "Vatican City (Holy See)",
+    "codes": ["va"]
+  },
+  {
+    "origin": "Saint Vincent and the Grenadines",
+    "codes": ["vc"]
+  },
+  {
+    "origin": "Venezuela",
+    "codes": ["ve"]
+  },
+  {
+    "origin": "British Virgin Islands",
+    "codes": ["vg"]
+  },
+  {
+    "origin": "United States Virgin Islands",
+    "codes": ["vi"]
+  },
+  {
+    "origin": "Vietnam",
+    "codes": ["vn"]
+  },
+  {
+    "origin": "Vanuatu",
+    "codes": ["vu"]
+  },
+  {
+    "origin": "Wallis and Futuna",
+    "codes": ["wf"]
+  },
+  {
+    "origin": "Samoa",
+    "codes": ["ws"]
+  },
+  {
+    "origin": "Kosovo",
+    "codes": ["xk"]
+  },
+  {
+    "origin": "Yemen",
+    "codes": ["ye"]
+  },
+  {
+    "origin": "Mayotte",
+    "codes": ["yt"]
+  },
+  {
+    "origin": "South Africa",
+    "codes": ["za"]
+  },
+  {
+    "origin": "Zambia",
+    "codes": ["zm"]
+  },
+  {
+    "origin": "Zimbabwe",
+    "codes": ["zw"]
+  }
+]
