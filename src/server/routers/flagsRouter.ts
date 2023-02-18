@@ -98,7 +98,7 @@ const createList = (dataList: Array<{ name: string; path: string }>) => `<!DOCTY
 <body>
   <div id="root">
     <h1>Available countries</h1>
-    <ul>${dataList.map((data) => `<li><a href="http://localhost:3001/${data.path}">${data.name}</a></li>`).join("")}</ul>
+    <ul>${dataList.map((data) => `<li><a href="/${data.path}">${data.name}</a></li>`).join("")}</ul>
   </div>
 </body>
 
@@ -117,7 +117,7 @@ flagsRouter.get("/", (req, res) => {
     if (message.includes("no such file or directory")) {
       return res.status(404).send(`
       <h1>Not Found - La carpeta o archivo no ha sido encontrado</h1>
-      <a href="http://localhost:3001/cdn">Volver</a>
+      <a href="/cdn">Volver</a>
       `);
     }
 
@@ -138,7 +138,7 @@ flagsRouter.get("/:dirPath", (req, res) => {
     if (message.includes("no such file or directory")) {
       return res.status(404).send(`
       <h1>Not Found - La carpeta o archivo no ha sido encontrado</h1>
-      <a href="http://localhost:3001/cdn">Volver</a>
+      <a href="/cdn">Volver</a>
       `);
     }
 
@@ -158,7 +158,7 @@ flagsRouter.get("/:dirPath/:filePath", (req, res) => {
     if (message.includes("no such file or directory")) {
       return res.status(404).send(`
       <h1>Not Found - La carpeta o archivo no ha sido encontrado</h1>
-      <a href="http://localhost:3001/cdn">Volver</a>
+      <a href="/cdn">Volver</a>
       `);
     }
 
