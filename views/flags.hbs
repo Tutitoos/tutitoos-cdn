@@ -1,0 +1,23 @@
+<a class="link-back" href="/flags">Back</a>
+
+<h1 class="title">{{countryName}} flags</span></h1>
+
+<ul class="flags">
+  {{#each flags}}
+    <li class="flag">
+      <a class="flag-link" href="/{{this.path}}">
+        <h2 class="flag-title">{{this.name}}</h2>
+        <div class="flag-formats">
+          <span class="flag-format">{{this.format}}</span>
+        </div>
+        <div class="flag-image">
+          <img
+            src="/{{this.path}}"
+            onerror="this.onerror=null;this.src='/assets/images/file-unknown.png';"
+            alt="Flag {{this.name}}"
+          />
+        </div>
+      </a>
+    </li>
+  {{/each}}
+</ul>

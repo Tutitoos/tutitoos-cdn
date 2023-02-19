@@ -1,0 +1,22 @@
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px 20px;
+}
+
+.country {
+}
+
+.country-link {
+  background-color: #484848;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.country-link:hover {
+  background-color: #4848488a;
+}

@@ -16,11 +16,12 @@ export const generalError = (
   next: NextFunction
 ) => {
   const statusCode = error.statusCode ?? 500;
-  const publicMessage = error.publicMessage || "General error";
+  const publicMessage = error.publicMessage || "Internal error";
 
   Logger.error(`There was an status ${statusCode} and error ${error.message}`);
 
-  res.status(statusCode).json({
+  res.render("error", {
+    title: "Server Error",
     code: statusCode,
     message: publicMessage,
   });

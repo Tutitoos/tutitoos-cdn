@@ -23,17 +23,19 @@ const clearCharacters = (word: string): string => {
   return word;
 };
 
+const rootDir = "./public/cdn/flags";
+
 const manager = async ({ format }: ManagerProps) => {
   const countries = CountryManager.getAll();
   const cdns = CdnManager.getAll(format);
 
-  FileManager.createDir("./public/flags/");
+  FileManager.createDir(rootDir);
 
   countries.forEach(async (country) => {
-    FileManager.createDir(`./public/flags/${clearCharacters(country.origin)}`);
+    FileManager.createDir(`${rootDir}/${clearCharacters(country.origin)}`);
 
     country.codes.forEach(async (countryCode) => {
-      const fileExist = FileManager.checkExist(`./public/flags/${clearCharacters(country.origin)}/${countryCode}.${format}`);
+      const fileExist = FileManager.checkExist(`${rootDir}/${clearCharacters(country.origin)}/${countryCode}.${format}`);
       if (fileExist) return;
 
       cdns.forEach(async (cdn) => {
@@ -44,7 +46,7 @@ const manager = async ({ format }: ManagerProps) => {
         if (!bufferData) return;
 
         const fileData = FileManager.createFile(
-          `./public/flags/${clearCharacters(country.origin)}`,
+          `${rootDir}/${clearCharacters(country.origin)}`,
           `${countryCode}.${format}`,
           bufferData
         );

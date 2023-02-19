@@ -1,0 +1,28 @@
+.error {
+  background-color: #393939d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.error-title {
+  color: #ff0000db;
+}
+
+.error-code {
+  color: #ffa500db;
+}
+
+.error-path {
+  color: #ffff00db;
+}
+
+.error-description {
+  color: #fff;
+}

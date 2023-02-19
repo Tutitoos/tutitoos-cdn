@@ -1,0 +1,54 @@
+.flags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flag {
+  background-color: #484848;
+  width: 125px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.flag-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.flag-title {
+  color: #fff;
+  font-size: 14px;
+}
+
+.flag-formats {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.flag-format {
+  background-color: gray;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.flag-image {
+  max-width: 100%;
+  max-height: 50px;
+  width: 100%;
+  height: 50px;
+}
+
+.flag-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,11 @@
+<a class="link-back" href="/">Back</a>
+
+<h1 class="title">Countries</h1>
+
+<ul class="countries">
+  {{#each countries}}
+    <li class="country">
+      <a class="country-link" href="/{{this.path}}">{{this.name}}</a>
+    </li>
+  {{/each}}
+</ul>

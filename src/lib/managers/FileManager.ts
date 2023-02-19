@@ -1,6 +1,14 @@
 import fs from "fs";
+import path from "path";
+import url from "url";
 
 class FileManager {
+  __filename = url.fileURLToPath(import.meta.url);
+  __dirname = path.dirname(this.__filename);
+  __dirPublic = path.join(this.__dirname, "../../../public");
+  __dirCdn = path.join(this.__dirname, "../../../public/cdn");
+  __dirViews = path.join(this.__dirname, "../../../views");
+
   checkExist(dirPath: string): boolean {
     return fs.existsSync(dirPath);
   }
